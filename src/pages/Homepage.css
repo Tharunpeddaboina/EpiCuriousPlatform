@@ -1,0 +1,101 @@
+.homepage {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .hero {
+    height: 80vh;
+    background-image: url('https://media.istockphoto.com/id/1363638825/photo/vegan-plant-based-asian-food-recipes-with-rice-and-brown-rice-as.jpg?s=612x612&w=0&k=20&c=URf-vx_254P5Z88eN4NdGcG-O6HZ9J9GLVmJkcwSwcc=');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+   
+   
+
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-text {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 15px 0 25px;
+  }
+  
+  .hero-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .intro-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .intro-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 50%;
+  }
+  
+  .intro-box:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  .intro-box h2 {
+    color: #007bff;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro-box p {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  

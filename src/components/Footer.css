@@ -1,0 +1,30 @@
+.footer {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 20px; /* Padding for spacing */
+    text-align: center; /* Centered text */
+}
+
+.footer-content {
+    max-width: 1200px; /* Max width for content */
+    margin: 0 auto; /* Center the footer */
+}
+
+.footer-links {
+    margin-bottom: 10px; /* Space between links and text */
+}
+
+.footer-link {
+    color: white; /* White link text */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Spacing between links */
+    transition: color 0.3s; /* Transition for hover effect */
+}
+
+.footer-link:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+.footer-info {
+    font-size: 0.9em; /* Smaller font for copyright */
+}
